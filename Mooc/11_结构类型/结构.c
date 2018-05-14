@@ -17,14 +17,14 @@ struct date {
 		int day;	
 	};
 	struct date d1,d2; 
-	---d1,d2都是date,里面有year,mont,day 
+	---d1,d2都是date,里面有year,mont,day
 2.
 	struct {
 		int year;
 		int month;
 		int day;
 	}d1,d2;
-	---d1,d2都是一种无名结构,里面有year,mont,day 
+	---d1,d2都是一种无名结构,里面有year,mont,day
 3. 
 	struct date {
 		int year;
