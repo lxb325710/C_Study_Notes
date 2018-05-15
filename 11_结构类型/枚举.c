@@ -1,13 +1,13 @@
 #include<stdio.h>
 /*
-1.Ã¶¾ÙÁ¿¿ÉÒÔ×÷ÎªÖµ
-2.Ã¶¾ÙÀàÐÍ¿ÉÒÔ¸úÉÏenum×÷ÎªÀàÐÍ
-3.µ«Êµ¼ÊÉÏÊÇÒÔÕûÊýÀ´×öÄÚ²¿¼ÆËãºÍÍâ²¿ÊäÈëÊä³öµÄ 
+1.æžšä¸¾é‡å¯ä»¥ä½œä¸ºå€¼
+2.æžšä¸¾ç±»åž‹å¯ä»¥è·Ÿä¸Šenumä½œä¸ºç±»åž‹
+3.ä½†å®žé™…ä¸Šæ˜¯ä»¥æ•´æ•°æ¥åšå†…éƒ¨è®¡ç®—å’Œå¤–éƒ¨è¾“å…¥è¾“å‡ºçš„ 
 */
 
-//Ð¡Ì×Â·:¿ÉÒÔÔÚÃ¶¾Ù×îºó¼ÓÉÏÒ»¸ö NumCOLORS  ,  NumCOLORSµÄÖµ¾ÍÊÇÃ¶¾ÙÀïÃæµÄ¸öÊý 
+//å°å¥—è·¯:å¯ä»¥åœ¨æžšä¸¾æœ€åŽåŠ ä¸Šä¸€ä¸ª NumCOLORS  ,  NumCOLORSçš„å€¼å°±æ˜¯æžšä¸¾é‡Œé¢çš„ä¸ªæ•° 
 enum color{red,blue,yellow,NumCOLORS}; 
-//ÉùÃ÷Ã¶¾ÙÁ¿µÄÊ±ºò¿ÉÒÔÖ¸¶¨Öµ
+//å£°æ˜Žæžšä¸¾é‡çš„æ—¶å€™å¯ä»¥æŒ‡å®šå€¼
 enum COLOR{RED=1,BLUE=10,GREEN=5,}; 
 void fun(enum color c);
 
